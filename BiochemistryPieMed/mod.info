@@ -1,0 +1,7 @@
+name=Bridge for Biochemistry and Pie's First Aid Overhaul
+id=BiochemistryPieMed
+poster=poster.png
+description=This mod bridges Biochemistry and Pie's First Aid Overhaul  
+modversion=1.0.0
+require=BioChemistryLife,piesfirstaidoverhaul
+

@@ -1,0 +1,59 @@
+module pfa{
+	imports{
+		Base,
+	}
+
+	recipe Make Disinfectant{
+		Water = 10,
+		WildGarlic = 5,
+		keep MortarPestle,
+
+		Result:Disinfectant,
+		SkillRequired:Doctor=3,
+		Category:Health,
+		Time:100.0,
+	}
+
+	recipe Improvise Antibiotics{
+		WildGarlic = 6,
+		Lemongrass = 2,
+		Water,
+		keep MortarPestle,
+
+		Result:Antibiotics,
+		SkillRequired:Doctor=4,
+		Category:Health,
+		Time:100.0,
+	}
+	
+	recipe Improvise Painkillers{
+		BlackSage = 6,
+		Water,
+		keep MortarPestle,
+
+		Result:Pills,
+		SkillRequired:Doctor=4,
+		Category:Health,
+		Time:100.0,
+	}
+
+	recipe Make Vitamins{
+		Ginseng = 4,
+		Water,
+		keep MortarPestle,
+
+		Result:PillsVitamins,
+		SkillRequired:Doctor=4,
+		Category:Health,
+		Time:100.0,
+	}
+
+	recipe Add Suture{
+		UsedSutureNeedle,
+		Thread,
+
+		Result:SutureNeedle,
+		Category:Health,
+		Time:25.0,
+	}
+}
