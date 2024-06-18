@@ -1,6 +1,6 @@
-name=Biochemistry Skills, Occupations, and Traits
-id=BiochemistrySkillsEtc
+name=Spawn items and clothing by occupation-Addon
 poster=poster.png
-description=This is a simple mod supplementing Mereszhka's Biochemistry of Life mod (for Project Zomboid) with chemistry based occupations, skills, and traits
-modversion=1.0.0
-require=BioChemistryLife
+id=ClothingBasedOnOccupationAddon
+description=Adds additional mod added and trait spawns to the Spawn items and clothing by occupation mod.
+modversion=0.0.1
+require=BioChemistryLife,BiochemistrySkillsEtc,ClothingBasedOnOccupation
