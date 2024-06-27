@@ -1,0 +1,6 @@
+name=Bridge for Biochemistry and DefbeatCZ's Long Term Survival (Faeldray's variation)
+id=BiochemistryLongTermSurvival
+poster=poster.png
+description=This mod bridges Biochemistry and DefbeatCZ's Long Term Survival (Faeldray's variation)  
+modversion=1.0.0
+require=BioChemistryLife,DLTS
